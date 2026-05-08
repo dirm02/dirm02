@@ -29,8 +29,27 @@ My strongest lane is practical delivery: React and TypeScript interfaces, API-co
 
 - Building reliable, API-connected product workflows with React, TypeScript, REST APIs, and SQL-backed services.
 - Strengthening AI-assisted engineering practices for debugging, source-grounded analysis, documentation, and safer review loops.
-- Turning hackathon and prototype work into portfolio-grade case studies with clearer architecture, deployment notes, and product screenshots.
+- Turning active SaaS PoCs, hiring challenges, and prototype work into portfolio-grade case studies with clearer architecture, deployment notes, and product screenshots.
 - Collaborating across DevOps, QA, data, product, and integration teams to ship maintainable software.
+
+## Active Project
+
+### [Onit Test ABC Energy SaaS](https://github.com/dirm02/OnitTest)
+
+![Repo](https://img.shields.io/badge/Repo-dirm02%2FOnitTest-181717?style=flat-square&logo=github)
+![Live](https://img.shields.io/badge/Live-Demo-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20React%20%7C%20TypeScript%20%7C%20FastAPI%20%7C%20PostgreSQL%20%7C%20Gemini-0A66C2?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Internal%20lead%20qualification%20SaaS-6DB33F?style=flat-square)
+
+Active proof-of-concept SaaS workspace for ABC Energy Solutions, built as an internal lead qualification assistant for reviewers, CRA team members, sales operators, and business-development teammates.
+
+- Built a guided chat workspace where internal reviewers can paste messy prospect notes from calls, CRM records, spreadsheets, emails, or research notes.
+- Designed a FastAPI backend that extracts lead facts, maintains structured lead state, tracks missing qualification fields, and applies deterministic Strategic Lead Matrix rules.
+- Kept final qualification logic deterministic and testable while using Gemini only for structured extraction support, with fallback paths when model output is unavailable.
+- Shipped a live Netlify frontend with Azure VM backend, PostgreSQL persistence, saved lead sessions, API health checks, PocketFlow orchestration, and focused pytest coverage.
+
+Live demo: [dirm02-onittest-abc-energy.netlify.app](https://dirm02-onittest-abc-energy.netlify.app/)  
+Repository: [github.com/dirm02/OnitTest](https://github.com/dirm02/OnitTest)
 
 ## Featured Project
 
